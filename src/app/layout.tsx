@@ -47,6 +47,18 @@ export default function RootLayout({
               >
                 Docs → Sheet
               </Link>
+              <Link
+                href="/clearance-ai"
+                className="px-3 py-1.5 rounded-full border border-transparent text-[var(--text-secondary)] hover:text-indigo-300 hover:border-indigo-500/60 transition-colors"
+              >
+                Clearance AI
+              </Link>
+              <Link
+                href="/tools/inv-pkl-merge"
+                className="px-3 py-1.5 rounded-full border border-transparent text-[var(--text-secondary)] hover:text-emerald-300 hover:border-emerald-500/60 transition-colors"
+              >
+                INV/PKL Merge
+              </Link>
             </nav>
           </header>
           <div className="flex-1">{children}</div>
